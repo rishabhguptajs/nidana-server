@@ -8,11 +8,11 @@ import { SongsModule } from './songs/songs.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
-      port: 5433,
+      host: 'dpg-cvhar0tumphs73al3cr0-a',
+      port: 5432,
       username: 'musicuser',
-      password: 'custommusicpass', 
-      database: 'musicdb',
+      password: 'ci7U3HJmMyEZ8moBCMhfYJ6FOS7BnR2v', 
+      database: 'musicdb_9psr',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true,
     }),
